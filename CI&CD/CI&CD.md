@@ -11,7 +11,7 @@ One of the key benefits of integrating regularly is that you can detect errors q
 Additionally, Continuous Deployment and Continuous Delivery have developed as best-practices for keeping your application deployable at any point or even pushing your main codebase automatically into production whenever new changes are brought into it. This allows your team to move fast while keeping high quality standards that can be checked automatically.
 
 ### Difference between them
-![difference](dif.png)
+![difference](./image/dif.png)
 
 
 
@@ -123,5 +123,6 @@ Then a CI is done
 ![image](./image/push.png)
 - Open the website
 ![image](./image/open.png)
-
+- We will find that our demo now runs on heroku
+![image](./image/web.png)
 With the steps above, every time we make changes to our code and push the new project to github, CI will help us build and test at set intervals, while CD will deploy our project with a few command-line operations.
