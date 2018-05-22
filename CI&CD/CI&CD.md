@@ -77,7 +77,7 @@ If we want other plugins, find them in Pluggins Available
 
 
     Note：
-    ①Choose ??? SCM，we can build it at set intervals
+    ①Choose Polling  SCM，we can build it at set intervals
     ②The detailed information will be shown by clicking the "?" in the column
 
 
@@ -125,4 +125,8 @@ Then a CI is done
 ![image](./image/open.png)
 - We will find that our demo now runs on heroku
 ![image](./image/web.png)
+- And the personal page of Heroku will show your activity 
+![image](./image/dashboard.png)
+
+## Summary
 With the steps above, every time we make changes to our code and push the new project to github, CI will help us build and test at set intervals, while CD will deploy our project with a few command-line operations.
